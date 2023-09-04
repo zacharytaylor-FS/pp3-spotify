@@ -69,3 +69,18 @@ To give yourself administrator permissions on the chat, you will have to type `/
 >You can check out the full license [here](https://github.com/IgorAntun/node-chat/blob/master/LICENSE)
 
 This project is licensed under the terms of the **MIT** license.
+
+---
+
+
+# Links
+
+The links to the project are as follows: 
+
+- [http://localhost:3000](http://localhost:3000) - Link to the frontend (Nuxt.js) application. This is the primary user interface of the Spotify application
+- [http://localhost:3001](http://localhost:3001) - Link to the backend (Express) API.
+- [http://localhost:3001/spotify/v1](http://localhost:3001/spotify/v1) - Link to the Spotify API middleware. 
+- [http://localhost:3001/spotify/v1/status](http://localhost:3001/spotify/v1/status) - Endpoint to check the status of our application's JWT. Returns true if a valid JWT exists. False otherwise.
+- [http://localhost:3001/spotify/v1/login](http://localhost:3001/spotify/v1/login) - Endpoint request a new JWT from Spotify using the authentication workflow
+- [http://localhost:3001/spotify/v1/search](http://localhost:3001/spotify/v1/search) - Endpoint for a general/global search to Spotify. Returns JSON of all results. 
+
